@@ -1,0 +1,24 @@
+[RecvInit]
+Class="Function"
+Prototype="void RecvInit();"
+
+[RecvFrame]
+Class="Function"
+Prototype="unsigned char *RecvFrame(unsigned char src, unsigned char *crc_error);"
+
+[sendCMD]
+Class="Function"
+Prototype="void sendCMD(int com_port, unsigned char cmd, unsigned char dtype0, unsigned char dtype);"
+
+[receiveSyncRspFrame]
+Class="Function"
+Prototype="unsigned char *receiveSyncRspFrame(int com_port, int timeout, unsigned char *crc_error);"
+
+[sendSyncCMDWithRsp]
+Class="Function"
+Prototype="unsigned char *sendSyncCMDWithRsp(int com_port, unsigned char cmd, unsigned char dtype0, unsigned char dtype, int timeout, unsigned char *result);"
+
+[sendSyncAPUpgradeWithRsp]
+Class="Function"
+Prototype="unsigned char *sendSyncAPUpgradeWithRsp(int com_port, unsigned char *target, unsigned short offset, unsigned char *pdata, unsigned char pdlen, int timeout, unsigned char *result);"
+

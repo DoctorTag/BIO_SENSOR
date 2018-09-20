@@ -1,0 +1,65 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "bio_demo.c" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+LOCATE on "bio_demo.h" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+LOCATE on "fwup_cb.c" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+LOCATE on "fwup_cb.h" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+LOCATE on "mmd_comm.c" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+LOCATE on "mmd_comm.h" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+LOCATE on "serial.c" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+LOCATE on "serial.h" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi" ;
+Object "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_demo.obj" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\bio_demo.c" ;
+FILENUM on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_demo.obj" = 1 ;
+DEFPROTS on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_demo.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_demo.obj.cvidefprots" ;
+OUTFILE on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_demo.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_demo.obj.out" ;
+PrjObjects += "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_demo.obj" ;
+Object "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\fwup_cb.obj" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\fwup_cb.c" ;
+FILENUM on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\fwup_cb.obj" = 2 ;
+DEFPROTS on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\fwup_cb.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\fwup_cb.obj.cvidefprots" ;
+OUTFILE on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\fwup_cb.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\fwup_cb.obj.out" ;
+PrjObjects += "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\fwup_cb.obj" ;
+Object "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\mmd_comm.obj" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\mmd_comm.c" ;
+FILENUM on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\mmd_comm.obj" = 3 ;
+DEFPROTS on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\mmd_comm.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\mmd_comm.obj.cvidefprots" ;
+OUTFILE on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\mmd_comm.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\mmd_comm.obj.out" ;
+PrjObjects += "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\mmd_comm.obj" ;
+Object "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\serial.obj" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\serial.c" ;
+FILENUM on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\serial.obj" = 4 ;
+DEFPROTS on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\serial.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\serial.obj.cvidefprots" ;
+OUTFILE on "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\serial.obj" = "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\serial.obj.out" ;
+PrjObjects += "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\serial.obj" ;
+Object "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\resources.res" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\resources.in.rc" ;
+Depends "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\resources.res" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\manifest.xml" ;
+MainFromObjects "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_cvi_dbg.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_cvi_dbg.exe" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\link_options.txt" ;
+Depends "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_cvi_dbg.exe" : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\resources.res" ;
+Depends all : "d:\\software\\2018\\feelkit\\cvi\\Demo_labwindows_cvi\\cvibuild.bio_cvi\\Debug\\bio_cvi_dbg.exe" ;

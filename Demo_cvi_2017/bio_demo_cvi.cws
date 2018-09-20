@@ -1,0 +1,265 @@
+[Workspace Header]
+Version = 1700
+Pathname = "/d/software/2018/cvi/feelkit/bio_demo_cvi.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2017"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2017"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "bio_cvi.prj"
+Drag Bar Left = 185
+Window Top = 94
+Window Left = 30
+Window Bottom = 542
+Window Right = 804
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 8
+Window Confinement Region Enabled = True
+MainColumnWidth = 168
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1700
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/d/software/2018/cvi/feelkit/fwup_cb.c"
+File Type = "CSource"
+Disk Date = 3619505876
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Window Z-Order = 1
+Source Window State = "1,167,167,167,16,25,16,0,0,177,0,0,0,0,0,70,147,0,202,54,323,517,1,0,"
+
+[File 0002]
+Path = "/d/software/2018/cvi/feelkit/serial.c"
+File Type = "CSource"
+Disk Date = 3619387461
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Window Z-Order = 5
+Source Window State = "1,93,93,93,5,16,16,0,3,80,0,0,0,0,0,25,2,0,93,5,323,517,1,0,"
+
+[File 0003]
+Path = "/d/software/2018/cvi/feelkit/bio_demo.c"
+File Type = "CSource"
+Disk Date = 3619504916
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Window Z-Order = 3
+Source Window State = "1,262,262,262,35,36,36,0,0,80,0,0,0,0,0,25,184,0,266,16,323,517,1,0,"
+
+[File 0004]
+Path = "/d/software/2018/cvi/feelkit/mmd_comm.c"
+File Type = "CSource"
+Disk Date = 3619501023
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Window Z-Order = 4
+Source Window State = "1,169,169,169,15,34,34,0,3,80,0,234,0,0,0,25,268,0,169,15,323,517,1,18,"
+
+[File 0005]
+Path = "/d/software/2018/cvi/feelkit/mmd_comm.h"
+File Type = "Include"
+Disk Date = 3619500153
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Window Z-Order = 2
+Source Window State = "1,69,69,69,8,28,8,0,3,80,0,7,0,0,0,25,52,0,69,28,323,517,1,0,"
+
+[File 0006]
+Path = "/d/software/2018/cvi/feelkit/bio_demo.uir"
+File Type = "User Interface Resource"
+Disk Date = 3619329162
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Window Height = 251
+Window Width = 517
+Window Z-Order = 6
+
+[File 0007]
+Path = "/c/Program Files (x86)/National Instruments/CVI2017/include/ansi/stdlib.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = ""
+Window Top = 25
+Window Left = 6
+Window Z-Order = 8
+Source Window State = "1,30,30,30,8,12,12,0,3,80,0,0,0,0,0,19,29,0,30,8,251,517,1,0,"
+
+[File 0008]
+Path = "/d/software/2018/cvi/feelkit/bio_demo.h"
+File Type = "Include"
+Disk Date = 3619329162
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Window Z-Order = 7
+Source Window State = "1,29,29,29,9,31,9,0,3,80,0,0,0,0,0,19,15,0,29,31,251,517,1,0,"
+
+[File 0009]
+Path = "/d/software/2018/cvi/feelkit/fwup_cb.h"
+File Type = "Include"
+Disk Date = 3619090919
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,16,16,16,8,19,8,0,0,0,0,0,0,0,0,0,0,0,31,6,323,517,1,0,"
+
+[File 0010]
+Path = "/d/software/2018/cvi/feelkit/serial.h"
+File Type = "Include"
+Disk Date = 3619052338
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,23,26,23,0,0,0,0,3,0,0,0,0,0,0,0,0,0,26,11,323,517,1,0,"
+
+[Tab Order]
+Tab 0001 = "/d/software/2018/cvi/feelkit/fwup_cb.c"
+Tab 0002 = "/d/software/2018/cvi/feelkit/serial.c"
+Tab 0003 = "/d/software/2018/cvi/feelkit/bio_demo.c"
+Tab 0004 = "/d/software/2018/cvi/feelkit/bio_demo.uir"
+Tab 0005 = "/c/Program Files (x86)/National Instruments/CVI2017/include/ansi/stdlib.h"
+Tab 0006 = "/d/software/2018/cvi/feelkit/bio_demo.h"
+Tab 0007 = "/d/software/2018/cvi/feelkit/mmd_comm.c"
+Tab 0008 = "/d/software/2018/cvi/feelkit/mmd_comm.h"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Watch 1]
+Watch Expression = "GetCtrlVal"
+
+[Watch 2]
+Watch Expression = "Rdbuf"
+
+[Watch 3]
+Watch Expression = "ReadAdcData"
+
+[Watch 4]
+Watch Expression = "datapoints"
+
+[Watch 5]
+Watch Expression = "ReadAdcData"
+
+[Watch 6]
+Watch Expression = "MMDTSTRxPacket"
+
+[Watch 7]
+Watch Expression = "LVSteamingFlag"
+

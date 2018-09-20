@@ -1,0 +1,28 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ConfigMenuCallback]
+Class="Function"
+Prototype="void ConfigMenuCallback(int menubar, int menuItem, void *callbackData, int panel);"
+
+[PlotData]
+Class="Function"
+Prototype="int PlotData(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Shutdown]
+Class="Function"
+Prototype="int Shutdown(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PauseChart]
+Class="Function"
+Prototype="int PauseChart(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PanelCB]
+Class="Function"
+Prototype="int PanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LVSteamThreadFunction]
+Class="Function"
+Prototype="int LVSteamThreadFunction(void *callbackData);"
+
