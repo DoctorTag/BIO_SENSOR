@@ -1,14 +1,15 @@
 # 生物传感器工程
 这是一个包含软件和硬件方案的生物传感器工程。
 # 概述
-这个工程的硬件方案包括传感器模块BIO-M001A、模块转接板和评估主板。  
+这个工程的硬件方案包括传感器模块BIO-M001A、模块转接板PINBOARD-M001A和评估主板MED-MAIN-DEMO。  
+
 模块BIO-M001A 是一款一体化多参数健康监测模块。它测量和处理包括HR（心率），RESP（呼吸）,ECG（心电），PPG（脉搏波），SPO2（血氧），GSR（皮电），BIA（人体阻抗分析）和计步运动/睡眠等多类型基础生物数据。   
 该模块集成红（660nm）、绿（520nm）和红外（940nm）三种光收发传感电路，实现PPG相关应用；支持4电极接入，实现人体电及阻抗活动的相关应用；板载14位三轴Gsensor，实现运动功能需求。  
-同时，模块内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，运行的算法核能完成滤波、人体综合行为判定等数据分析，比如运动识别等。硬件接口支持SPI/I2C/UART可选，FPC连接器参考DF37NB-30DS-0.4V。
+同时，模块内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，运行的算法核能完成滤波、人体综合行为判定等数据分析，比如运动识别等。硬件接口支持SPI/I2C/UART可选，FPC连接器参考[DF37NB-30DS-0.4V](https://www.hirose.com/product/en/products/DF37/DF37NB-30DS-0.4V%2851%29/)。
 
-模块转接板主要负责模块BIO-M001A的fpc接口到评估主板或其它DIY主板的转接，它支持市面上主流的开源硬件接口。
+模块转接板PINBOARD-M001A主要负责模块BIO-M001A的fpc接口到评估主板或其它DIY主板的转接，它兼容市面上主流的开源硬件接口。
 
-评估主板采用NRF52832蓝牙ble芯片，来自于NordicSemi
+评估主板采用[NRF52832蓝牙ble芯片](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832)，来自于NordicSemi
 
 这个工程的软件方案包括评估主板上MCU（NRF52832）的固件和基于LabWindows CVI 2017开发的PC端windows评估软件。我们也正在开发基于ANDROID的评估APK，到时也会开源释放。
 
@@ -34,7 +35,7 @@
 
 6. 通讯接口： 
 - SPI/UART/I2C可选；
-- FPC连接器参考DF37NB-30DS-0.4V,制造商为hirose; 
+- FPC连接器参考[DF37NB-30DS-0.4V](https://www.hirose.com/product/en/products/DF37/DF37NB-30DS-0.4V%2851%29/),制造商为hirose; 
 
 7. 超小体积，适合手环（表）装配使用： 
 - 22×26mm;
@@ -43,3 +44,6 @@
 2. 健康监测设备；
 3. 手持便携设备；
 # 硬件--模块转接板PINBOARD-M001A
+
+# 资源
+传感器模块BIO-M001A结构文件（1：1比例，dxf文件），[PCB顶层](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_TOP.dxf)，PCB底层。
