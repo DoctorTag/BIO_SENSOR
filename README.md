@@ -13,7 +13,6 @@
 这个工程的软件方案包括评估主板上MCU（NRF52832）的固件和基于LabWindows CVI 2017开发的PC端windows评估软件。我们也正在开发基于ANDROID的评估APK，到时也会开源释放。
 
 # 硬件--传感器模块BIO-M001A
-<<<<<<< HEAD
 ![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/M001A.jpg)
 ## 功能描述
 1. 集成单导心电（ECG）:
