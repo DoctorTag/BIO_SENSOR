@@ -13,7 +13,7 @@ BIO-M001A内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，�
 
 评估主板采用[NRF52832蓝牙ble芯片](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832)，来自于NordicSemi
 
-这个工程的软件方案包括评估主板上MCU（NRF52832）的固件和基于LabWindows CVI 2017开发的[PC端windows评估软件](https://github.com/feelkit/BIO_SENSOR/raw/master/tool/bio_demo.exe)。我们也正在开发基于ANDROID的评估APK，到时也会开源释放。
+这个工程的软件方案包括评估主板上MCU（NRF52832）的固件和基于LabWindows CVI 2017开发的PC端windows评估软件。我们也正在开发基于ANDROID的评估APK，到时也会开源释放。
 
 # 硬件--[传感器模块BIO-M001A](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_UM_CN.pdf)
 ![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/M001A.jpg)
@@ -46,15 +46,9 @@ BIO-M001A内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，�
 2. 健康监测设备；
 3. 手持便携设备；
 # 硬件--模块转接板PINBOARD-M001A
-#### 转接板的主要功能就是把FPC接口转成主流的开源硬件接口，方便扩展支持更多的硬件评估平台。
+![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/pinboard.jpg)
+转接板的主要功能就是把FPC接口转成主流的开源硬件接口，方便扩展支持更多的硬件评估平台。
 # 硬件--评估主板MED-MAIN-DEMO
-评估主板采用的[NRF52832蓝牙ble芯片](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832)支持I2C,SPI或UART三种任一方式连接[传感器模块BIO-M001A](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_UM_CN.pdf)；通过UART连接[PC端windows评估软件](https://github.com/feelkit/BIO_SENSOR/raw/master/tool/bio_demo.exe)；通过蓝牙BLE连接手机端apk。
-# 软件--NRF52蓝牙ble评估方案
-- 模块BIO-M001A驱动接口和控制；
-- 传感器数据流采集和控制；
-- 蓝牙BLE传感器PROFILE;
-
-# 软件--LabWindows CVI评估方案
-请参考这个工程：[https://github.com/feelkit/bioDemo_labwindows_cvi](https://github.com/feelkit/bioDemo_labwindows_cvi)
+![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/MAIN_BOARD.jpg)
 # 资源
 ## 传感器模块BIO-M001A结构文件（1：1比例，dxf文件），[PCB顶层布局](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_TOP.dxf)，[PCB底层布局](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_BOT.dxf)。
