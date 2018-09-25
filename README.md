@@ -91,3 +91,8 @@ BIO-M001A内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，�
 QQ： 4646079
 
 Email： fanfeiwu@gmail.com
+
+# Donations
+如果此工程对你帮助很大，并且你很想支持我的后续开发和维护，那么你可以扫描下方捐赠二维码支持我一下，我将不胜感激。
+
+![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/Donations.PNG)
