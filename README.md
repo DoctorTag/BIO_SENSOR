@@ -77,7 +77,7 @@ BIO-M001A内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，�
 
 3. 模组转接板 PinBoard-M001A
 - 模组转接板用户手册：
-[https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/PinBoard_UM_CN .pdf](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/PinBoard_UM_CN .pdf)
+[https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/PinBoard_UM_CN.pdf](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/PinBoard_UM_CN.pdf)
 - 转接板原理图及pcb开源工程：
 [https://lceda.cn/seanfan/wmmed_ext_openhd](https://lceda.cn/seanfan/wmmed_ext_openhd)
 - FPC连接器[DF37NB-30DS-0.4V] 
