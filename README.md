@@ -46,7 +46,7 @@ BIO-M001A内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，�
 
 # 传感器模组评估包
 ![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/demo_device.jpg)
-评估包硬件包括蓝牙ble主板，模组转接板；软件包括蓝牙BLE固件，PC/移动端apk。关于评估板的使用，请查阅[用户手册](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/demo_UM_CN.pdf)。
+这个工程硬件包括蓝牙ble主板，模组转接板；软件包括蓝牙BLE固件，PC/移动端apk。关于评估板的使用，请查阅[用户手册](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/demo_UM_CN.pdf)。
 ## 蓝牙BLE主板
 评估主板采用的[NRF52832蓝牙ble芯片](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832)支持I2C,SPI或UART三种任一方式连接[传感器模组BIO-M001A](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_UM_CN.pdf)；通过UART连接[PC端windows评估软件](https://github.com/feelkit/BIO_SENSOR/raw/master/tool/bio_demo.exe)；通过蓝牙BLE连接手机端apk。详情请参考[用户手册](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/MAIN_UM_CN.pdf)。
 
