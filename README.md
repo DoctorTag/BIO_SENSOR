@@ -102,7 +102,7 @@ contact us by Email: fanfeiwu@gmail.com.
 # Shopping
 
 Do you want to buy bio-sensor or evaluation boards? Services for global users, except for China.
-<html>
+
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="2HT5AJ8499ZAA">
@@ -117,7 +117,7 @@ Do you want to buy bio-sensor or evaluation boards? Services for global users, e
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-</html>
+
 
 中国用户请选[淘宝店铺](https://shop69263171.taobao.com/)
 ![TaoBao](https://github.com/feelkit/BIO_SENSOR/raw/master/image/feelkit_tb.png)
