@@ -1,5 +1,5 @@
-# Bio-sensor Project
-## A completed Bio-sensor project including software and hardware solutions,to make an all-in-one,including ECG, RESP, GSR ,HR, PPG, HCM, SPO2, BIA and Motion etc.
+# 生物传感器工程
+## 一个包含软件和硬件方案的生物传感器工程。
 # 概述
 这个工程包括[生物多参数传感器模组](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_SPEC_CN.pdf)、及针对该模组设计的评估板、软件方案包括蓝牙主板固件和桌面/移动评估工具。 
 
@@ -45,7 +45,7 @@ BIO-M001A内嵌带生物模拟前端和24位模数转换器的MCU/DSP单元，�
 3. 手持便携设备；
 
 # 传感器模组评估包
-![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/demo_device.jpg)
+![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/DEMO1.png)
 这个工程硬件包括蓝牙ble主板，模组转接板；软件包括蓝牙BLE固件，PC/移动端apk。关于评估板的使用，请查阅[用户手册](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/demo_UM_CN.pdf)。
 ## 蓝牙BLE主板
 评估主板采用的[NRF52832蓝牙ble芯片](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832)支持I2C,SPI或UART三种任一方式连接[传感器模组BIO-M001A](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_UM_CN.pdf)；通过UART连接[PC端windows评估软件](https://github.com/feelkit/BIO_SENSOR/raw/master/tool/bio_demo.exe)；通过蓝牙BLE连接手机端apk。详情请参考[用户手册](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/MAIN_UM_CN.pdf)。
