@@ -1,4 +1,4 @@
-# Bio-sensor Project                                          [中文](https://github.com/feelkit/BIO_SENSOR/raw/master/Readme_cn.md)
+# Bio-sensor Project                                          [中文](https://github.com/feelkit/BIO_SENSOR/blob/master/Readme_cn.md)
 ## A completed Bio-sensor project including software and hardware solutions; also depending on the following projects:
 Bluetooth BLE Firmware project: [https://github.com/feelkit/bioModule_NRF52_BLE](https://github.com/feelkit/bioModule_NRF52_BLE)
 
