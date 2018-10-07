@@ -97,31 +97,11 @@ For the details,please refer to the project：[https://github.com/feelkit/bioDem
 
 # Contact
 If you have technical problems and ideas to communicate with us, you can
-contact us by Email: fanfeiwu@gmail.com.
+contact us by Email: fanfeiwu@gmail.com.  
 
-# Shopping
-
-Do you want to buy bio-sensor or evaluation boards? Services for global users, except for China.
-
-{::nomarkdown}
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="2HT5AJ8499ZAA">
-<table>
-<tr><td><input type="hidden" name="on0" value="Bio-sensor: M001A or evaluation board">Bio-sensor: M001A or evaluation board</td></tr><tr><td><select name="os0">
-	<option value="Bio-sensor: M001A">Bio-sensor: M001A $100.00 USD</option>
-	<option value="Evaluation board for M001A">Evaluation board for M001A $680.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-{:/}
+For more information,please browse our homepage: [www.feelkit.com](www.feelkit.com).
 
 
-中国用户请选[淘宝店铺](https://shop69263171.taobao.com/)
-![TaoBao](https://github.com/feelkit/BIO_SENSOR/raw/master/image/feelkit_tb.png)
 
 
 
