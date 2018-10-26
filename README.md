@@ -97,7 +97,7 @@ For the details,please refer to the project：[https://github.com/feelkit/bioDem
 
 # Contact
 If you have technical problems and ideas to communicate with us, you can
-contact us by Email: fanfeiwu@gmail.com.  
+contact us by Email: fanfeiwu@gmail.com, QQ: 4646079
 
 For more information,please browse our homepage: [www.feelkit.com](http://www.feelkit.com).
 
