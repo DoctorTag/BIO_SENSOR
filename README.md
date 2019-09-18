@@ -5,6 +5,8 @@ Bluetooth BLE Firmware project: [https://github.com/feelkit/bioModule_NRF52_BLE]
 Evaluation Tool using LabWindows CVI :
 [https://github.com/feelkit/bioDemo_labwindows_cvi](https://github.com/feelkit/bioDemo_labwindows_cvi)
 
+HDF(Healthcare Development Framework) project: [https://github.com/feelkit/HDF](https://github.com/feelkit/HDF)
+
 # Introduce
 The project includes a Bio-module（[BIO-M001A](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_SPEC_EN.pdf)）, an evaluation board designed for the Bio-module, and software solutions including Bluetooth BLE firmware and desktop/mobile evaluation tools.
 
