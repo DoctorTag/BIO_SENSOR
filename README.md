@@ -16,7 +16,7 @@ The evaluation board supports  Bluetooth BLE with NRF52832 chipset from NordicSe
 
 The software solution includes Bluetooth firmware for NRF52,desktop evaluation tool about LabWindows CVI; We are also developing APK for ANDROID, which will be released and open-source .
 
-# [Bio-Module : M001A](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_UM_EN.pdf)
+# [Bio-Sensor : F58GM](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_UM_EN.pdf)
 ![image](https://github.com/feelkit/BIO_SENSOR/raw/master/image/F58GM.png)
 The Bio-module integrates red (660 nm), green (520 nm) and infrared (940 nm) three-color LED and photodiode(PD) sensor to realize PPG-related applications; and supports four electrodes to achieve applications with human electrical activities and impedance activities; on-module 14-bit three-axis Gsensor for motion/sleep applications.
 
