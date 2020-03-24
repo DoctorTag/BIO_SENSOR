@@ -8,7 +8,8 @@ Evaluation Tool using LabWindows CVI :
 HDF(Healthcare Development Framework) project: [https://github.com/feelkit/HDF](https://github.com/feelkit/HDF)
 
 # Introduce
-The project includes a Bio-Sensor healthcare module （[BIO-Sensor:F58GM](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_SPEC_EN.pdf)）, some healthcare projects designed for the Bio-sensor, and software solutions including Bluetooth BLE firmware and desktop/mobile evaluation tools.
+The project includes a Bio-Sensor healthcare module （[BIO-Sensor:F58GM](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_SPEC_EN.pdf)）, some healthcare projects designed for the Bio-sensor, and software solutions including Bluetooth BLE&WIFI firmware and desktop/mobile evaluation tools.
+
 The Bio-Sensor measures and transfers various types of bio-data including ECG, RESP, GSR, HR, PPG, HCM and BIA etc, integrated Bio-Processor with Analog Front-End to make an all-in-one health monitoring solution. The algorithm core runs in Bio-Processor,including SPO2,motion recognition,dynamic heart rate monitoring, trend analysis of blood pressure, Emotional and mental stress etc.
  
 The evaluation board supports  Bluetooth BLE with NRF52832 chipset from NordicSemi.
