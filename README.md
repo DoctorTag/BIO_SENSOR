@@ -8,9 +8,8 @@ Evaluation Tool using LabWindows CVI :
 HDF(Healthcare Development Framework) project: [https://github.com/feelkit/HDF](https://github.com/feelkit/HDF)
 
 # Introduce
-The project includes a Bio-module（[BIO-M001A](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_SPEC_EN.pdf)）, an evaluation board designed for the Bio-module, and software solutions including Bluetooth BLE firmware and desktop/mobile evaluation tools.
-
-Bio-M001A is a Bio-module in healthcare;The Bio-module measures and transfers various types of bio-data including ECG, RESP, GSR, HR, PPG, HCM and BIA etc, integrated Bio-Processor with Analog Front-End to make an all-in-one health monitoring solution. The algorithm core runs in Bio-Processor,including SPO2,motion recognition,dynamic heart rate monitoring, trend analysis of blood pressure, Emotional and mental stress etc.
+The project includes a Bio-Sensor healthcare module （[BIO-Sensor:F58GM](https://github.com/feelkit/BIO_SENSOR/raw/master/DOC/M001A/M001A_SPEC_EN.pdf)）, some healthcare projects designed for the Bio-sensor, and software solutions including Bluetooth BLE firmware and desktop/mobile evaluation tools.
+The Bio-Sensor measures and transfers various types of bio-data including ECG, RESP, GSR, HR, PPG, HCM and BIA etc, integrated Bio-Processor with Analog Front-End to make an all-in-one health monitoring solution. The algorithm core runs in Bio-Processor,including SPO2,motion recognition,dynamic heart rate monitoring, trend analysis of blood pressure, Emotional and mental stress etc.
  
 The evaluation board supports  Bluetooth BLE with NRF52832 chipset from NordicSemi.
 
@@ -22,7 +21,7 @@ The Bio-module integrates red (660 nm), green (520 nm) and infrared (940 nm) thr
 
 The Bio-module hardware interface supports SPI/I2C/UART optional, FPC connector reference [DF37NB-30DS-0.4V](https://www.hirose.com/product/en/products/DF37/DF37NB-30DS-0.4V%2851%29/).
 
-## BIO-M001A FEATURES
+## BIO-Sensor FEATURES
 ### Single lead ECG :
 - 3 electrodes with right leg driver;
 - Lead-off detect;
